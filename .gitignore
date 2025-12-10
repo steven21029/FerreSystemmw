@@ -1,0 +1,4 @@
+vendor/
+.env
+ferresystem_db.sql
+ferresystem_db (1).sql

@@ -1,0 +1,7 @@
+RewriteEngine On
+
+# Redirigir todo a /FerreSystem/public
+RewriteCond %{REQUEST_URI} !^/FerreSystem/public/
+RewriteRule ^(.*)$ /FerreSystem/public/$1 [L]
+
+DirectoryIndex index.php

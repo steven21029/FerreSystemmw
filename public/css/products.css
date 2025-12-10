@@ -1,0 +1,89 @@
+.titulo-productos {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.btn-nuevo {
+    padding: 10px 15px;
+    background: #0d3b66;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.productos-grid {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 25px;
+}
+
+.producto-card {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+}
+
+.producto-img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.producto-info {
+    padding: 10px 0;
+}
+
+.producto-nombre {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.producto-precio {
+    color: #1a1a1a;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.producto-stock {
+    font-size: 14px;
+    color: #555;
+}
+
+.acciones-card {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.btn-carrito {
+    background: #388e3c;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-editar {
+    background: #1e88e5;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-eliminar {
+    background: #d32f2f;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}

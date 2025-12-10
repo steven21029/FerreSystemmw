@@ -1,0 +1,119 @@
+/* =============================
+   CONTENEDOR PRINCIPAL
+============================= */
+.pay-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+ /*  TARJETA DE PAGO */
+
+.pay-card {
+    width: 420px;
+    background: #ffffff;
+    padding: 32px;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    text-align: center;
+    border: 1px solid #e6e6e6;
+}
+
+/* TÍTULOS */
+.pay-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #003087; /* PayPal */
+}
+
+.stripe-title {
+    color: #635BFF !important; /* Stripe */
+}
+
+.pay-subtitle {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 18px;
+}
+
+/* LOGOS */
+.pay-logo {
+    width: 200px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* INFORMACIÓN */
+.pay-info {
+    background: #f7f7f7;
+    padding: 18px;
+    border-radius: 10px;
+    margin-bottom: 22px;
+    text-align: left;
+    font-size: 15px;
+    border: 1px solid #e0e0e0;
+}
+
+
+ /*  BOTONES */
+
+.btn-pay,
+.btn-stripe,
+.btn-back {
+    display: block;
+    padding: 12px 14px;
+    border-radius: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 12px;
+    transition: 0.25s ease-in-out;
+}
+
+/* CONFIRMAR (PAYPAL) */
+.btn-pay {
+    background: #0070ba;
+    color: #fff;
+}
+
+.btn-pay:hover {
+    background: #005c96;
+    transform: translateY(-2px);
+}
+
+/* CONFIRMAR (STRIPE) */
+.btn-stripe {
+    background: #635BFF;
+    color: #fff;
+}
+
+.btn-stripe:hover {
+    background: #4f45d4;
+    transform: translateY(-2px);
+}
+
+/* BOTÓN VOLVER */
+.btn-back {
+    background: #e0e0e0;
+    color: #333;
+    border: 1px solid #cfcfcf;
+}
+
+.btn-back:hover {
+    background: #cacaca;
+    transform: translateY(-2px);
+}
+
+ /*  RESPONSIVE */
+
+@media (max-width: 480px) {
+    .pay-card {
+        width: 90%;
+        padding: 25px;
+    }
+
+    .pay-logo {
+        width: 160px;
+    }
+}

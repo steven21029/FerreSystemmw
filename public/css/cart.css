@@ -1,0 +1,124 @@
+/* CONTENEDOR PRINCIPAL */
+.cart-container {
+    max-width: 1100px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+}
+
+/* TÍTULO */
+.cart-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0d47a1;
+    margin-bottom: 20px;
+}
+
+/* TABLA */
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.cart-table th {
+    background: #0d3c66;
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+}
+
+.cart-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+/* SECCIÓN DE ACCIONES */
+.cart-actions-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* BOTÓN SEGUIR COMPRANDO */
+.btn-back {
+    padding: 10px 18px;
+    border-radius: 6px;
+    background: #0d6efd;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .2s ease-in-out;
+}
+
+.btn-back:hover {
+    opacity: .85;
+}
+
+/* CONTENEDOR DE BOTONES DERECHA */
+.right-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+/* BOTONES GENERALES */
+.btn-cart {
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: .2s ease-in-out;
+}
+
+.btn-clear { 
+    background: #616161; 
+}
+
+.btn-pay { 
+    background: #0d47a1; 
+}
+
+.btn-remove { 
+    background: #c62828; 
+}
+
+.btn-cart:hover {
+    opacity: .85;
+}
+
+/* MÉTODOS DE PAGO */
+.pay-methods {
+    margin-top: 25px;
+    border-top: 2px solid #eee;
+    padding-top: 20px;
+}
+
+.pay-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.pay-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.pay-card {
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.pay-icon {
+    width: 45px;
+    margin-bottom: 8px;
+}

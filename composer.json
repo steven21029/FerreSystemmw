@@ -1,0 +1,17 @@
+{
+    "name": "grupo8/ferresystem",
+    "description": "Proyecto FerreSystem",
+    "autoload": {
+        "psr-4": {
+            "Controllers\\": "src/Controllers/",
+            "DAO\\": "src/DAO/",
+            "Config\\": "src/Config/",
+            "Utilities\\": "src/Utilities/",
+            "Views\\": "src/Views/"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "phpmailer/phpmailer": "^7.0"
+    }
+}
