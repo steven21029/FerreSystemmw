@@ -17,7 +17,7 @@ class HomeController
             ["nombre" => "Arony Castillo", "img" => "AronyCastillo.jpeg"],
             ["nombre" => "Gladys Salmeron", "img" => "GladysSalmeron.jpeg"],
             ["nombre" => "Steven Rivera", "img" => "StevenRivera.jpeg"],
-            ["nombre" => "Integrante 5", "img" => "persona5.jpg"],
+            ["nombre" => "Bessy Mata", "img" => "BessyMata.jpeg"],
             ["nombre" => "Integrante 6", "img" => "persona6.jpg"],
         ];
 
